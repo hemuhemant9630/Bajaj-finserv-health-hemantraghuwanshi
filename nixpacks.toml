@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ["libGL"]
+
+[start]
+cmd = "uvicorn app.main:application --host 0.0.0.0 --port ${PORT}"
