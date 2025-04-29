@@ -1,6 +1,6 @@
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.responses import JSONResponse
-from utils import process_lab_report
+from app.utils import process_lab_report
 import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
 
