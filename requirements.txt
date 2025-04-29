@@ -1,7 +1,6 @@
-
 fastapi==0.110.0
 uvicorn==0.29.0
 pytesseract
-opencv-python
+opencv-python-headless==4.8.1.78
 numpy==1.24.4
 pillow
